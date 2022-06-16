@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    color: rgb(13, 85, 153);
+}
+p {
+    color: black;
+    width: auto;
+}
+.textik {
+    width: 50vw;
+} 
+h2 {
+    color: rgb(18, 156, 138);
+}
+h3 {
+    color: yellowgreen;
+}
+h4 {
+    color: rgb(17, 117, 25); 
+}

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Postup</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark navbar-dark">
+        <div class="container ">
+            <a class="navbar-brand text-white" href="./index.html">HBPC</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link " href="./Postup.html">Postup krok za krokem <span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="./quiz.html">Quiz / Dotazník<span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Komponenty</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="./procesor.html">Procesor</a>
+                            <a class="dropdown-item" href="./ram.html">Pamět RAM</a>
+                            <a class="dropdown-item" href="./zakladnideska.html">Základní deska</a>
+                            <a class="dropdown-item" href="./chlazeni.html">Chlazení</a>
+                            <a class="dropdown-item" href="./grafika.html">Grafická karta</a>
+                            <a class="dropdown-item" href="./uloziste.html">Uložiště</a>
+                            <a class="dropdown-item" href="./zdroj.html">Zdroj</a>
+                            <a class="dropdown-item" href="./skrin.html">Skřín</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <h1 class="text-center">
+            1. Připojení komponentů k základní desce
+        </h1>
+        <div class="container textik">
+            <p class="text-center">
+                Zaprvé vložíte procesor do patice, ale pozor musíte ho tam vložit správně, podle toho jestli mate
+                procesor značky amd nebo intel zjistíte jak mmá být procesor otočen a konečně ho vložíte do patice.
+            </p>
+            <img src="./img/patice" alt="" class=" mx-auto d-block" width="450" height="600">
+            <h1 class="text-center">
+                2. Instalace chladiče
+            </h1>
+            <p class="text-center">
+                První část sestavení PC máme úspěšně za sebou. Nyní byste měli nainstalovat chladič na procesor.
+                Postupujte
+                dle návodu přiloženého u zakoupeného chladiče. Postupujte pomalu a s citem, šrouby utahujte nejlépe
+                křížem a
+                postupně.
+            </p>
+            <img src="./img/cooler.png" alt="" class=" mx-auto d-block">
+            <h1 class="text-center">
+                3. Připojení operační paměti k základní desce
+            </h1>
+            <p class="text-center">
+                Instalace operačních pamětí se může lišit dle typu a modelu základní desky. Některé mají pouze dva
+                paměťové
+                sloty, jiné čtyři. U desek s dvěma sloty osazujeme oba, u desek s čtyřmi pak minimálně dva, aby byl
+                zajištěn
+                chod dual-channelu. Správné pořadí u vaší desky opět prozradí manuál.
+            </p>
+            <img src="./img/ram.jfif" alt="" class=" mx-auto d-block">
+            <h1 class="text-center">
+                4. Instalace grafické karty
+            </h1>
+            <p class="text-center">
+                Dalším krokem stavby PC je montáž grafické karty. Většina dnešních grafických karet něco váží, a tak je
+                potřeba při instalaci kartu neustále držet a podpírat, než se náležitě uchytí. Ve většině případů se
+                používá
+                první PCI-E 16x slot, je to ten nejblíž patici s procesorem. Při sestavování PC se v případě nejasností
+                raději podívejte do manuálu desky. Další odstavec seriálu "Jak sestavit PC" věnujeme zapojení SSD či HDD
+                disku.
+            </p>
+            <img src="./img/grafiskakarta.jfif" alt="" class=" mx-auto d-block">
+            <h1 class="text-center">
+                5. Zapojení SSD/HDD disku
+            </h1>
+            <p class="text-center">
+                Obrázek znázorňuje správné zapojení pevných disků do SATA konektorů. Stejným způsobem můžete připojit i
+                optickou mechaniku.
+            </p>
+            <h1 class="text-center">
+                6. Připojení napájecího zdroje k základní desce
+            </h1>
+            <img src="./img/pripojenipower.jfif" alt="" class=" mx-auto d-block">
+            <h1 class="text-center">
+                7. První spuštění sestaveného počítače
+            </h1>
+            <p class="text-center">
+                Pokud není k dispozici samostatné tlačítko „Power“, resp. „Start“ pro zapnutí přímo na desce, je potřeba
+                propojit dva kontakty PWRSW a deska se zapne. Stačí použít například šroubovák. Pokud naběhne obraz a je
+                možnost se dostat do UEFI, je pravděpodobně vše v pořádku. V této fázi sestavování PC si už klidně
+                můžete
+                nainstalovat operační systém ještě před vložením do skříně, záleží na vás.
+            </p>
+            <h1 class="text-center">
+                8. Instalace již osazené základní desky do počítačové skříně
+            </h1>
+            <p class="text-center">
+                Seriál "Jak na montáž počítače" se blíží ke konci, přesněji řečeno už nás čeká poslední hardwarový
+                zásah. Nyní odpojte už pouze zdroj, SSD disk a grafickou kartu a můžete začít s instalací základní desky
+                do počítačové skříně. Pokud to chladič umožňuje, můžete nechat namontovaný i ten.
+            </p>
+            <h2 class="text-center">
+                Začněte krytem zadních konektorů základní desky
+            </h2>
+            <p class="text-center">
+                Jako první musíte do skříně nainstalovat tzv. I/O shield, kryt zadních konektorů základní desky, který
+                najdete mezi příslušenstvím v balení.
+            </p>
+            <img src="./img/io.jfif" alt="" class=" mx-auto d-block" height="300">
+            <img src="./img/deska.jfif" alt="" class=" mx-auto d-block" height="340">
+            <h2 class="text-center">
+                Jak umístit základní desku do počítačové skříně
+            </h2>
+            <p class="text-center">
+                Základní desku vložíte do počítačové skříně tím způsobem, že zadní část s konektory nasunete do I/O
+                shieldu, tím získáte správné zarovnání a současně zkontrolujete, zda montážní otvory pro šroubky v desce
+                sedí se závity distančních sloupků ve vaší skříni. Pečlivě zašroubujete všechny šroubky, čímž pevně
+                přichytíte základní desku do skříně.
+            </p>
+            <img src="./img/sroby.jfif" alt="" class=" mx-auto d-block">
+            <h2 class="text-center">
+                Umístění kabelů v počítačové skříni
+            </h2>
+            <p class="text-center">
+                Při stavbě PC doporučujeme projít si přiložené materiály vč. manuálu k vaší počítačové skříni, které vám
+                dají představu o tom, jak má skříň vymyšlené vedení kabeláže, tzv. cable management. Rozdíly v
+                uspořádání a vedení kabelů od zdroje dělají velké rozdíly v designu, ale i v chlazení po stránce průtoku
+                vzduchu (tzv. airflow). Zároveň vám manuál napoví, kam a jak umístit pevné disky (SSD/HDD) či optické
+                mechaniky, každý model skříně má toto vymyšlené jinak.
+            </p>
+            <h2 class="text-center">
+                Zapojení kabeláže od skříně
+            </h2>
+            <p class="text-center">
+                Jakmile máte základní desku nainstalovanou, zapojte zbytek konektorů, jako jsou USB, AUDIO, FAN
+                konektory a kabeláž pro propojení se skříní.Obrázek znázorňuje zapojení kabeláže od skříně a konektory
+                USB. Mějte na paměti, že každá základní deska má lehce odlišné rozložení konektorů, a proto postupujte
+                vždy podle manuálu, který naleznete v balení. "Jak postavit počítač: level komponenty" je za námi,
+                montáž PC je v podstatě hotová, nyní už pouze doplňky jako klávesnice, myš a monitor.
+            </p>
+            <img src="./img/zap.jfif" alt="" class=" mx-auto d-block" height="400">
+            <h2 class="text-center">
+                Stavba PC hotova. Instalace operačního systému a otestování stability
+            </h2>
+            <p class="text-center">
+                Nejsložitější část stavby nového počítače máte úspěšně za sebou a nyní je potřeba přikročit k instalaci
+                operačního systému. Konkrétně Windows 10, protože nad ničím jiným nemá cenu uvažovat. I výrobci
+                nejnovějších procesorů Ryzen a Kaby Lake jsou v tomto zcela za jedno. Doba Windows 7 a 8.1 je zkrátka už
+                pryč.
+
+                Instalace Windows 10 má v domácím prostředí dvě základní varianty. Buď máte k dispozici instalační DVD
+                nebo si vyrobíte bootovací USB flashdisk. Druhá varianta je většinou výrazně rychlejší zejména pokud
+                využijete USB 3.0. V ideální situaci se budete během čtvrt hodinky přihlašovat ke svému Windows účtu.
+            </p>
+            <img src="./img/win.jpg" alt="" height="400" class=" mx-auto d-block">
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

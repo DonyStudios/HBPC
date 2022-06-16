@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Grafická karta</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark navbar-dark">
+        <div class="container ">
+            <a class="navbar-brand text-white" href="./index.html">HBPC</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link " href="./Postup.html">Postup krok za krokem <span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="./quiz.html">Quiz / Dotazník<span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Komponenty</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="./procesor.html">Procesor</a>
+                            <a class="dropdown-item" href="./ram.html">Pamět RAM</a>
+                            <a class="dropdown-item" href="./zakladnideska.html">Základní deska</a>
+                            <a class="dropdown-item" href="./chlazeni.html">Chlazení</a>
+                            <a class="dropdown-item" href="./grafika.html">Grafická karta</a>
+                            <a class="dropdown-item" href="./uloziste.html">Uložiště</a>
+                            <a class="dropdown-item" href="./zdroj.html">Zdroj</a>
+                            <a class="dropdown-item" href="./skrin.html">Skřín</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <h1 class="text-center">
+            Grafická karta
+        </h1>
+        <div class="container textik text-center">
+            <h2>
+                Jak funguje a k čemu slouží grafická karta?
+            </h2>
+            <p>
+                Základním principem grafické karty je vytváření statických snímků a jejich rychlé střídání za sebou.
+                Podobně jako u animace se ze série snímků stane iluze pohybu. Kolik takových snímků se za sekundu
+                vystřídá, udává hodnota FPS, která je známá i mnoha laikům. V případě sledování videí je počet snímků
+                konstantní. Na druhé straně při hraní her můžete získat tolik FPS, kolik je váš hardware schopný
+                vyplodit. Tato cifra ovšem nezávisí pouze na grafické kartě, ale i na dalších komponentech, primárně pak
+                na procesoru.
+                <img src="./img/rx.png" alt="" class=" mx-auto d-block">
+                Grafické karty toho dnes zvládnou mnohem víc než jen zobrazovat počítačové hry – grafické čipy se totiž
+                postarají o plynulé přehrávání 4K videa, umí citelně akcelerovat kódování videa, rychle vypočítat
+                složité matematické operace a pochopitelně dovedou v reálném čase vytvářet detailní 3D scény. Ve všech
+                těchto oblastech navíc nastal v posledních letech ohromný posun. Výkon současných generací grafických
+                karet od AMD a NVIDA je ve srovnání s 5 let starou kartou ohromující. Například mezigenerační nárůst
+                výkonu v případě aktuální řady NVIDIA GeForce RTX 30 je přibližně 40 % vůči GeForce RTX 20 za pouhé dva
+                roky vývoje.
+            </p>
+            <h2>
+                Základní rozdělení grafických karet podle provedení
+            </h2>
+            <p>
+                Kdo by si ještě před několika lety pomyslel, že bude možné k tenkému notebooku jednoduše pořídit
+                výkonnou grafickou kartu. Vývoj jde neuvěřitelným tempem dopředu a k typickým grafickým kartám přibyly i
+                externí boxy. Jaké jsou výhody a nevýhody jednotlivých řešení?
+            </p>
+            <h3>
+                Interní grafické karty
+            </h3>
+            <p>
+                Interní grafické karty představují variantu, která se odhadem používá u 99 % případů. U stolních PC jde
+                o fyzickou kartu, která se zasouvá do PCIe ×16 slotu na základní desce. Taková karta v případě herního
+                modelu váží klidně 750 gramů při délce 300 mm. Jde tak o masivní kus železa, který tvoří po chladiči
+                procesorů druhý bod, kterého si okamžitě všimnete při pohledu do otevřené skříně.
+                <img src="./img/uhd.jpg" alt="" class=" mx-auto d-block" height="600">
+                U notebooků pak jde z pochopitelných důvodů výhradně o čipy integrované přímo na základní desce. To
+                platí v případě výkonných GPU. Nicméně tu máme i grafiky integrované do jednoho velkého čipu společně s
+                CPU. I když v této oblasti zaznamenáváme u nových procesorů velký posun, přesto jde spíše o kompromisní
+                řešení pro méně náročné hráče.
+            </p>
+            <h3>
+                Externí grafické karty
+            </h3>
+            <p>
+                Externí grafické karty představují zajímavou alternativu z posledních let, kterou přineslo moderní
+                rozhraní Thunderbolt 3 reprezentované konektorem USB-C. V zásadě jde o externí box se slotem pro
+                rozhraní Thunderbolt 3 je však naprosto klíčová věc. V podstatě každý nový notebook již má konektor typu
+                USB-C, ale poměrné malé procento z nich podporuje Thunderbolt 3. Toto je nutné vždy dopředu prověřit v
+                grafickou kartu. V případě některých variant lze takovou grafickou kartu časem vyměnit podobně jako v
+                PC. Nicméně některé boxy jsou od výrobce již napevno spojené s danou grafickou kartou. Takový externí
+                box s grafickou kartou pak jednoduše udělá z kancelářského notebooku silnou herní mašinu. Již zmíněné
+                podrobných specifikacích na stránkách výrobce notebooku.
+            </p>
+            <h3>
+                Dedikované grafické karty
+            </h3>
+
+            <p>
+                Dedikovaná grafická karta je rozšiřující modul pro počítače nebo notebooky. V případě stolních PC jde o
+                často fyzicky poměrně velkou kartu, která se vkládá do volného PCI Express ×16 slotu na základní desce.
+                V případě notebooků je dedikovaná grafická karta umístěna do speciálního čipu, který je nedílnou
+                součástí základní desky.
+
+                A co je vlastně základním principem fungování grafické karty? V zásadě jde o postupné vytváření série
+                statických snímků a jejich rychlé střídání za sebou. Podobně jako u animace se následně z takové série
+                snímků stane iluze pohybu. Kolik takových snímků se za sekundu vystřídá, udává hodnota FPS, která je
+                známá i mnoha laikům zejména z testů a recenzí herních grafických karet. Výsledná snímková frekvence
+                však samozřejmě závisí i na dalších komponentech v PC, zejména pak na procesoru.
+            </p>
+
+            <img src="./img/externigrafika.jpg" alt="" class=" mx-auto d-block">
+            <h4>
+                Herní grafické karty
+            </h4>
+            <p>
+                Herní grafické karty jsou nejžádanějším typem. Low-endové modely seženete i za pár tisíc, za opravdovou
+                špičku však můžete zaplatit i desítky tisíc. Disponují ale promyšleným chlazením a vysokým výkonem.
+            </p>
+            <img src="./img/rtx.jpg" alt="" height="800" class=" mx-auto d-block">
+            <h4>
+                Profesionální grafické karty
+            </h4>
+            <p>
+                Přemýšlíte nad pořízením velmi výkonné profesionální grafické karty, která si hravě poradí i s náročnými
+                3D programy, editací videí nebo CAD softwary? Úplně zapomeňte na herní grafiky NVIDIA GeForce, ale
+                zaměřte se na úzce specializovanou řadu NVIDIA Quadro. Díky vysoké kapacitě pamětí a široké datové
+                propustnosti jde o řešení vhodné pro náročnější uživatele. Díky famóznímu výkonu CUDA jader ušetříte
+                například při výpočtech nebo renderování 3D scény mnoho času. Během stejné pracovní doby tak zvládnete
+                odevzdat mnohem více práce.
+
+                Své řešení pro použití v profesionální sféře má i společnost AMD. Konkrétně jde o grafiky AMD FirePro.
+                Hlavní výhoda těchto karet spočívá především v certifikovaných ovladačích pro různý 3D software. Jde
+                například o již zmíněné CAD programy, ve kterých lze pomocí složitých optimalizací na přesně dané
+                výpočty dosáhnout násobně vyššího výkonu oproti běžným Radeonům.
+            </p>
+            <img src="./img/profi.jpg" alt="" height="600" class=" mx-auto d-block">
+            <h4>
+                Kancelářské a multimediální grafické karty
+            </h4>
+            <p>
+                Potřebujete v kanceláři používat například dva nebo tři monitory, které razantně zvětší pracovní plochu
+                a navýší pracovní produktivitu? V tom případě lze využít tzv. kancelářskou grafickou kartu. Ta sice nemá
+                herní výkon, ale právě umí obsloužit dva nebo tři monitory i hardwarově akcelerovat přehrávané video.
+            </p>
+            <img src="./img/low.png" alt="" class=" mx-auto d-block">
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

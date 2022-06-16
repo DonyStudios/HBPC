@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css ">
+    <link rel="stylesheet" href="./css/styletab.css">
+    <title>Zdroj</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark navbar-dark">
+        <div class="container ">
+            <a class="navbar-brand text-white" href="./index.html">HBPC</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link " href="./Postup.html">Postup krok za krokem <span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="./quiz.html">Quiz / Dotazník<span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Komponenty</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="./procesor.html">Procesor</a>
+                            <a class="dropdown-item" href="./ram.html">Pamět RAM</a>
+                            <a class="dropdown-item" href="./zakladnideska.html">Základní deska</a>
+                            <a class="dropdown-item" href="./chlazeni.html">Chlazení</a>
+                            <a class="dropdown-item" href="./grafika.html">Grafická karta</a>
+                            <a class="dropdown-item" href="./uloziste.html">Uložiště</a>
+                            <a class="dropdown-item" href="./zdroj.html">Zdroj</a>
+                            <a class="dropdown-item" href="./skrin.html">Skřín</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <h1 class="text-center">
+            Zdroj
+        </h1>
+        <div class="container textik text-center">
+            <img src="./img/zdroj.jpg" alt="" class=" mx-auto d-block">
+            <h2>
+                Co je to počítačoý zdroj
+            </h2>
+            <p>
+                Počítačový zdroj typu ATX je zařízení sloužící ke zpracování střídavého zdroje (v ČR 230 V / 50 Hz) na
+                nízké napětí, které je potřebné k napájení jednotlivých komponent počítače. Napájecí zdroje jsou v první
+                řadě hodnocené na základě maximálního výkonu (udávaný ve wattech). Nicméně kvůli rozdílným výrobním
+                procesům u jednotlivých výrobců se nedá orientovat pouze na základě této vlastnosti.
+                Zde vstupuje na scénu účinnost zdroje, která by měla být v principu co nejvyšší. I proto se už v roce
+                2008 zavedlo certifikování energetické účinnosti počítačových zdrojů. Čím lepší kategorie, tím více
+                elektrické energie je k dispozici pro napájení počítače. Zároveň, pokud byste měli dva stejně výkonné
+                zdroje, avšak s jinou účinností, ten účinnější spotřebuje méně elektrické energie. Účinnější zdroj se
+                bude také daleko méně zahřívat a pravděpodobně bude i tišší.
+            <table>
+                <caption>
+                    Certifikace účinosti
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Zatížění zdroje</th>
+                        <th>10%</th>
+                        <th>20%</th>
+                        <th>50%</th>
+                        <th>100%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>80 PLUS Bronze</td>
+                        <td></td>
+                        <td>81%</td>
+                        <td>85%</td>
+                        <td>81%</td>
+                    </tr>
+                    <tr>
+                        <td>80 PLUS Silver</td>
+                        <td></td>
+                        <td>85%</td>
+                        <td>89%</td>
+                        <td>85%</td>
+                    </tr>
+                    <tr>
+                        <td>80 PLUS Gold</td>
+                        <td></td>
+                        <td>88%</td>
+                        <td>92%</td>
+                        <td>88%</td>
+                    </tr>
+                    <tr>
+                        <td>80 PLUS Platinum</td>
+                        <td></td>
+                        <td>90%</td>
+                        <td>94%</td>
+                        <td>91%</td>
+                    </tr>
+                    <tr>
+                        <td>80 PLUS Titanium</td>
+                        <td>90%</td>
+                        <td>94%</td>
+                        <td>96%</td>
+                        <td>91%</td>
+                    </tr>
+                </tbody>
+            </table>
+            Z tabulky je patrné, že nejvyšší účinnost mají zdroje při typickém zatížení kolem 50 %, na což je nutné
+            myslet při výběru konkrétního zdroje.
+            Občas se ještě můžete setkat s rozdělením zdrojů dle verze standardu ATX. Nejnovější je verze 2.4 a aktuálně
+            je vyhrazena pro ty nejdražší modely. Oproti verzi 2.3 má více dimenzované jednotlivé vodiče, případně
+            zvýšené výkony na jednotlivých napájecích větvích. V podstatě se vždy jedná o nové revize ATX standardu,
+            který musí pružně reagovat na měnící se požadavky napájení nejmodernějších procesorů apod.
+            </p>
+            <img src="./img/80-Plus-Logos.jpg" alt="" class=" mx-auto d-block">
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
